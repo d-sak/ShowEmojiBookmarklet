@@ -291,7 +291,7 @@ for(var i in s){
 }
 for(var i in rpl){
      var n = map[ rpl[i].charCodeAt(0).toString(16).toUpperCase() ]; 
-      s=s.replace( rpl[i], '<img src="http://www001.upp.so-net.ne.jp/hdml/emoji/i/'+n.toUpperCase()+'.gif">' );
+      s=s.replace( rpl[i], '<img src=http://www001.upp.so-net.ne.jp/hdml/emoji/i/'+n.toUpperCase()+'.gif>' );
 }
 document.body.innerHTML=s;
 
