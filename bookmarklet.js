@@ -104,7 +104,6 @@ javascript: (function ()
         setTimeout(function(){
 	        $('.emj').each(function(){
 	        	var s=$(this).parent().css('font-size');
-	        	console.log(s);
 	        	$(this).css({ width: s, height: s });
 	        });
 		}, 500);
